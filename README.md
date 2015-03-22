@@ -40,4 +40,6 @@ This version only processes 300 lines
 17. Create data frame for step 5. Store averages for activity & subject. store in dfx
 18. Write dfx to txt file
 
+My PC couldn't cope with more than 300 lines of data. I ran out of time coming up with a different solution.
+This one works, just not for the whole data set or not on my PC.
 
