@@ -20,24 +20,24 @@ This version only processes 300 lines
         6,tBodyAcc-std-Z
         41,tGravityAcc-mean-X
   
-3.     Set Set.ID to indicate which set of data we are using i.e. "Train" or "Test"
-4.     Create a directory vector to make read commands a bit easier to read
-5.     Read x_test.txt file (only 300 lines) all 561 columns into dataframe df
-6     Weed out all those columns that are not mean or std. store in df.mas
-7     Set the column names in df.mas to meaninful values.
-8     Create dataframe with all Subject data from subject_test.txt (only 300 lines)
-9     Set the column names in subject dataframe to meaninful values.
-8     Create dataframe with all Activity data from y_test.txt (only 300 lines)
-9     Set the column names in Activity dataframe to meaninful values.
-10    Replace INT values with descriptive Activity names
-11    Add columns to df.mas for activity, subject and set.ID
-12    Clean up temporary vectors and dataframes
+3. Set Set.ID to indicate which set of data we are using i.e. "Train" or "Test"
+4. Create a directory vector to make read commands a bit easier to read
+5. Read x_test.txt file (only 300 lines) all 561 columns into dataframe df
+6. Weed out all those columns that are not mean or std. store in df.mas
+7. Set the column names in df.mas to meaninful values.
+8. Create dataframe with all Subject data from subject_test.txt (only 300 lines)
+9. Set the column names in subject dataframe to meaninful values.
+10. Create dataframe with all Activity data from y_test.txt (only 300 lines)
+11. Set the column names in Activity dataframe to meaninful values.
+12. Replace INT values with descriptive Activity names
+13. Add columns to df.mas for activity, subject and set.ID
+14. Clean up temporary vectors and dataframes
 
-13    Repeat 3 through 11 for Train set
+15. Repeat 3 through 14 for Train set
 
-14    Merge Train set and Test set into data frame dfDataSets
+16. Merge Train set and Test set into data frame dfDataSets
 
-15    Create data frame for step 5. Store averages for activity & subject. store in dfx
-16    write dfx to txt file
+17. Create data frame for step 5. Store averages for activity & subject. store in dfx
+18. Write dfx to txt file
 
 
