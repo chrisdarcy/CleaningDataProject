@@ -9,18 +9,18 @@ This version only processes 300 lines
 ##The Steps
 
 1. Limited run to only to 300 rows of each input file
-2. Create a data frame with column numbers and titles for means & std
-      I extracted from Features.txt only those columns with mean & std values. 
-      I never got round to extracting this info as part of the script.
+2. Create a data frame with column numbers and titles for means & std. I extracted from Features.txt only those columns with mean & std values. I never got round to extracting this info as part of the script.
       Example
-        column,description
-        1,tBodyAcc-mean-X
-        2,tBodyAcc-mean-Y
-        3,tBodyAcc-mean-Z
-        4,tBodyAcc-std-X
-        5,tBodyAcc-std-Y
-        6,tBodyAcc-std-Z
-        41,tGravityAcc-mean-X
+        |column,description|
+        |------------------|
+        |1,tBodyAcc-mean-X|
+        |2,tBodyAcc-mean-Y|
+        |3,tBodyAcc-mean-Z|
+        |4,tBodyAcc-std-X|
+        |5,tBodyAcc-std-Y|
+        |6,tBodyAcc-std-Z|
+        |41,tGravityAcc-mean-X|
+        |------------------|
   
 3.     Set Set.ID to indicate which set of data we are using i.e. "Train" or "Test"
 4.     Create a directory vector to make read commands a bit easier to read
