@@ -8,8 +8,8 @@ This version only processes 300 lines
 
 ##The Steps
 
-1     Limited run to only to 300 rows of each input file
-2     Create a data frame with column numbers and titles for means & std
+1. Limited run to only to 300 rows of each input file
+2. Create a data frame with column numbers and titles for means & std
       I extracted from Features.txt only those columns with mean & std values. 
       I never got round to extracting this info as part of the script.
       Example
@@ -22,9 +22,9 @@ This version only processes 300 lines
         6,tBodyAcc-std-Z
         41,tGravityAcc-mean-X
   
-3     Set Set.ID to indicate which set of data we are using i.e. "Train" or "Test"
-4     Create a directory vector to make read commands a bit easier to read
-5     Read x_test.txt file (only 300 lines) all 561 columns into dataframe df
+3.     Set Set.ID to indicate which set of data we are using i.e. "Train" or "Test"
+4.     Create a directory vector to make read commands a bit easier to read
+5.     Read x_test.txt file (only 300 lines) all 561 columns into dataframe df
 6     Weed out all those columns that are not mean or std. store in df.mas
 7     Set the column names in df.mas to meaninful values.
 8     Create dataframe with all Subject data from subject_test.txt (only 300 lines)
